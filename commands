@@ -1,0 +1,27 @@
+Download vscode and node.js
+Terminal commands
+npm.init - for json file
+npm install -D tailwindcss - for tailwind css
+npx tailwindcss init - for tailwind.config.js file
+Replace with content: ["./src/**/*.{html,js}"], in tailwind.config.js file in
+
+
+Make new folder src
+Index.html in src also input.css
+Type (in input.css)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+In terminal-   npx tailwindcss -i ./src/input.css -o ./src/output.css --watch   to specify input and output files and watch to continuously update output
+
+<div class="min-h-screen bg-black"></div>    
+This helps class span the entire screen in a responsive way
+
+Link output.css in the index.html in head
+<link rel="stylesheet" href="./output.css">
+
+Shortcuts
+div*4, tab  to to create multiple(4) divs at the same time
+Crl+alt+down key  to edit multiple lines at same time	
+
